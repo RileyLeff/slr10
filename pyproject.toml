@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "slr10"
+version = "0.1.0"
+description = ""
+authors = ["RileyLeff <rileyleff@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.36.0"
+plotly = "^5.22.0"
+pandas = "^2.2.2"
+watchdog = "^4.0.1"
+numpy = "^2.0.0"
+scipy = "^1.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
